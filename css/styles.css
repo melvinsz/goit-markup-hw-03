@@ -1,0 +1,196 @@
+/* Загальні */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-background-color: #2f303a;
+  --white-color: #ffffff;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.list-settings {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Навігація */
+
+.logo {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-list {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.logo-web,
+.nav-current,
+.contacts:hover,
+.contacts:focus,
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Мейн */
+
+.title {
+  color: var(--white-color);
+  background-color: var(--secondary-background-color);
+}
+.title > h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.primary-button {
+  color: inherit;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.89;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+}
+.features {
+  line-height: 1.71;
+}
+.features-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.second-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.our-team {
+  background: #f5f4fa;
+}
+.team-member {
+  background-color: var(--white-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Друга сторінка */
+/* Фільтр */
+.filter {
+  font-size: 16px;
+  line-height: 1.88;
+}
+.filter a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.filter-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.filter-button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: inherit;
+  letter-spacing: 0.03em;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.logo-footer {
+  color: var(--white-color);
+}
+.address-place {
+  color: var(--white-color);
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+}
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+}
+.address-place:hover,
+.address-contacts:hover,
+.address-place:focus,
+.address-contacts:focus {
+  color: var(--accent-color);
+}
