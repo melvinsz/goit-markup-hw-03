@@ -122,8 +122,8 @@ p {
 
 .title-section {
   padding-top: 200px;
-
   text-align: center;
+
   color: var(--white-color);
   background-color: var(--secondary-background-color);
 }
@@ -140,6 +140,7 @@ p {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 216px;
+  max-width: 350px;
 
   border: none;
   color: inherit;
@@ -241,6 +242,8 @@ p {
 .button-item {
   padding: 6px 22px;
   border-radius: 4px;
+  min-width: 73px;
+  max-width: 200px;
 
   border: none;
   color: var(--title-text-color);
@@ -271,9 +274,9 @@ p {
   font-size: 16px;
   line-height: 1.88;
 }
-.filter-item {
-  flex-basis: calc((100%-50px) / 3);
-}
+/* .filter-item {
+  flex-basis: calc((100%-60px) / 3);
+} */
 .filter a {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -286,7 +289,8 @@ p {
   border-bottom: 1px solid #eeeeee;
 }
 .filter-title {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
